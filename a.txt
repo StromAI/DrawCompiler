@@ -1,0 +1,6 @@
+//输入文件
+//test input
+scale is (20,10);
+origin is (3,2);
+rot is PI/4;
+for T from 0 to 2*PI step PI/50 draw(cos(T*PI)+cos(T*2+1), sin(T)+cos(3*T+5));
